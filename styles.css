@@ -1,0 +1,41 @@
+table,
+td {
+    border: 1px solid #333;
+    text-align: center;
+}
+tr{
+  background-color: #FFEFEC;
+}
+th{
+  background-color: #FEB2A2;
+}
+thead{
+  font-size: 1.3rem;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+p{
+  font-size: 1.1rem;
+}
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+body {
+  background-color: #FFFAF0;
+
+}
+table{
+  font-family: sans-serif;
+}
+li{
+  font-family: sans-serif;
+}
