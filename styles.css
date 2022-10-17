@@ -2,12 +2,14 @@ table,
 td {
     border: 1px solid #333;
     text-align: center;
+    border-style: none;
 }
 tr{
-  background-color: #FFEFEC;
+  background-color: #D9FBFF;
+
 }
 th{
-  background-color: #FEB2A2;
+  background-color: #9740FF;
 }
 thead{
   font-size: 1.3rem;
@@ -18,23 +20,30 @@ tfoot {
     background-color: #333;
     color: #fff;
 }
+.fit-picture {
+    width: 300px;
+}
+
 p{
   font-size: 1.1rem;
 }
 hr {
     border: none;
-    border-top: 3px double #333;
-    color: #333;
+    color: blue;
+    border-width: 6px;
     overflow: visible;
     text-align: center;
-    height: 5px;
+    height: 0px;
+    width: 35%;
+    border-style: dotted none none;
 }
 body {
-  background-color: #FFFAF0;
+  background-color: #C0E0FF;
 
 }
 table{
   font-family: sans-serif;
+  border-style: none;
 }
 li{
   font-family: sans-serif;
