@@ -21,8 +21,29 @@ tfoot {
     color: #fff;
 }
 .fit-picture {
-    width: 300px;
+    width: 200px;
 }
+img:hover{
+  background-color: #fff;
+  width: 300px;
+}
+
+
+table {
+  transition: transform 0.3s ease;
+}
+
+table:hover {
+  transform: scale(1.2);
+}
+
+
+img {
+  transition: transform 0.5s ease;
+  border-radius: 50%;
+}
+
+
 
 p{
   font-size: 1.1rem;
